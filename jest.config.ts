@@ -1,3 +1,4 @@
+import { truncate } from "node:fs";
 import { pathsToModuleNameMapper } from "ts-jest/utils";
 
 import { compilerOptions } from "./tsconfig.json";
